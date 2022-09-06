@@ -1,6 +1,6 @@
 const Contenedor = require("./Contenedor");
 
-const contenedor = new Contenedor("productos.json");
+const contenedor = new Contenedor("productos.txt");
 
 const main = async () => {
   const id1 = await contenedor.save({ title: "Remera", price: 500 });
